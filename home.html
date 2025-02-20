@@ -1,0 +1,18 @@
+<main class="container">
+    <!-- القسم الأيمن -->
+    <section class="right">
+        <button class="connect-ptn" onclick="connectWebSocket()">اتصل بالمستقبل</button>
+        <div id="data"><bdi >في انتظار البيانات...</bdi></div>
+        <div class="form-input">
+            <input class="input" type="text" id="esp-ip" placeholder="أدخل IP الخاص بـ ESP8266">
+            <button class="save-ip" onclick="saveIP()">حفظ IP</button>
+        </div>
+        
+    </section>
+
+    <!-- القسم الأيسر -->
+    <section class="left">
+        <div id="map"></div>
+    </section>
+</main>
+
