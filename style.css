@@ -302,9 +302,14 @@ footer {
 }
 
 
-.home {
+.about-contener {
     padding: 20px 70px;
 
+}
+@media (max-width: 768px) {
+    .about-contener {
+        padding: 10px 30px;    
+    }
 }
 
 
