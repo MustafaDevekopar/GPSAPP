@@ -113,20 +113,20 @@ function extractGPS(data) {
     if (match) {
         let lat = parseFloat(match[1]);
         let lon = parseFloat(match[2]);
-        if (isValidCoordinate(lat, lon)) {
+        // if (isValidCoordinate(lat, lon)) {
             return `${lat},${lon}`;
-        } else {
-            console.warn("تم تجاهل البيانات غير الصحيحة:", data);
-        }
+        // } else {
+        //     console.warn("تم تجاهل البيانات غير الصحيحة:", data);
+        // }
     }
     return null;
 }
 
-function isValidCoordinate(lat, lon) {
-    const latMin = 33.47, latMax = 33.48;
-    const lonMin = 43.41, lonMax = 43.42;
-    return lat >= latMin && lat <= latMax && lon >= lonMin && lon <= lonMax;
-}
+// function isValidCoordinate(lat, lon) {
+//     const latMin = 33.47, latMax = 33.48;
+//     const lonMin = 43.41, lonMax = 43.42;
+//     return lat >= latMin && lat <= latMax && lon >= lonMin && lon <= lonMax;
+// }
 
 function updateMap(gpsData) {
     let coords = gpsData.split(",");
