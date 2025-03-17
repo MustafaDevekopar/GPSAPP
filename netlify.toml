@@ -1,0 +1,4 @@
+[[redirects]]
+from = "http://yourdomain.netlify.app"
+to = "http://yourdomain.netlify.app"
+force = true

@@ -63,8 +63,8 @@ function connectWebSocket() {
         return;
     }
 
-    // let wsUrl = `ws://${ip}:81`;
-    let wsUrl = `wss://${ip}:81`;
+    let wsUrl = `ws://${ip}:81`;
+    // let wsUrl = `wss://${ip}:81`;
 
     socket = new WebSocket(wsUrl);
 
