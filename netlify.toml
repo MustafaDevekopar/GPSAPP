@@ -1,4 +1,4 @@
 [[redirects]]
-from = "http://yourdomain.netlify.app"
-to = "http://yourdomain.netlify.app"
+from = "http://gps-tracker-children.netlify.app"
+to = "http://gps-tracker-children.netlify.app"
 force = true
